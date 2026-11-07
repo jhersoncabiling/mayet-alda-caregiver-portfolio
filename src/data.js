@@ -5,7 +5,7 @@ export const profile = {
   location: 'Cebu City, Philippines',
   email: 'mayetalda7@gmail.com',
   phone: '09079447264',
-  heroPhoto: '/images/mayet-professional.png',
+  heroPhoto: '/images/mayet-hero-hospital-1920.webp',
   aboutPhoto: '/images/mayet-original.png',
   tagline: 'Compassionate Care. Experienced Hands. Dedicated Service.',
   about: 'I am Mayet A. Alda, a professional caregiver based in Cebu City, Philippines. My hands-on experience includes home-based care and private patient support in hospital settings. I have assisted people living with Alzheimer’s disease, cancer, physical disabilities, chronic health conditions, and a wide range of daily care needs. I approach every person with patience, dignity, respect, and a commitment to their comfort, safety, and well-being.',

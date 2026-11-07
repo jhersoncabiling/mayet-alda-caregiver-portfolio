@@ -25,3 +25,34 @@ footer a:focus-visible{outline-color:#9DD8CD}
 
 @media(max-width:1024px){.philosophy{background-position:43% center}}
 @media(max-width:600px){.philosophy{background-position:40% center}.philosophy blockquote{font-size:22px;line-height:1.65}}
+
+/* Hospital hero: the supplied photograph fills desktop; smaller screens retain
+   the full introduction below a separate, face-focused photographic panel. */
+.hero.hero-hospital{position:relative;isolation:isolate;background:#F7FAF8;overflow:hidden}
+.hero-hospital-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;z-index:-2}
+.hero-hospital::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(247,243,236,.98) 0%,rgba(247,243,236,.94) 28%,rgba(247,243,236,.82) 43%,rgba(247,243,236,.25) 58%,transparent 70%);pointer-events:none}
+.hero-hospital .hero-grid{display:block;min-height:760px}
+.hero-hospital .hero-copy{max-width:590px;padding:64px 0 56px}
+.hero-hospital h1{font-size:clamp(48px,4.8vw,68px);line-height:1.1}
+.hero-hospital .hero-description{max-width:515px;color:#38545b}
+.hero-hospital .hero-values{color:#38545b}
+.hero-care-note{display:flex;align-items:center;gap:9px;margin:24px 0 0;font-size:12px;line-height:1.5;color:#38545b}
+.hero-care-note svg{color:#146C70;flex:none}
+@media(min-width:1001px) and (max-width:1200px){.hero-hospital .hero-copy{max-width:52%}.hero-hospital h1{font-size:54px}.hero-hospital .hero-grid{min-height:720px}}
+@media(max-width:1000px){
+ .hero-hospital-image{position:relative;inset:auto;z-index:auto;display:block;width:100%;height:auto;aspect-ratio:16/9;object-position:70% center}
+ .hero-hospital::before{display:none}
+ .hero-hospital .hero-grid{min-height:0}
+ .hero-hospital .hero-copy{max-width:680px;margin:0 auto;padding:44px 0 48px}
+ .hero-hospital h1{font-size:clamp(43px,6.5vw,58px)}
+ .hero-hospital .hero-description{max-width:600px}
+}
+@media(max-width:600px){
+ .hero-hospital-image{height:auto;aspect-ratio:4/3;object-position:78% center}
+ .hero-hospital .hero-copy{padding:34px 0 40px}
+ .hero-hospital h1{font-size:43px}
+ .hero-hospital .eyebrow{font-size:9px;letter-spacing:.08em}
+ .hero-hospital .actions{gap:12px;margin:25px 0}
+ .hero-hospital .actions .btn{width:100%;min-height:49px}
+ .hero-hospital .hero-care-note{font-size:12px;margin-top:22px}
+}
