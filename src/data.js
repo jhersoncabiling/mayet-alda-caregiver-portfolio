@@ -5,8 +5,9 @@ export const profile = {
   location: 'Cebu City, Philippines',
   email: 'mayetalda7@gmail.com',
   phone: '09079447264',
-  heroPhoto: '/images/mayet-hero-hospital-1920.webp',
-  aboutPhoto: '/images/mayet-original.png',
+  phoneInternational: '+639079447264',
+  heroPhoto: '/images/mayet-hero-corridor-1920.webp',
+  aboutPhoto: '/images/mayet-about-warm-960.webp',
   tagline: 'Compassionate Care. Experienced Hands. Dedicated Service.',
   about: 'I am Mayet A. Alda, a professional caregiver based in Cebu City, Philippines. My hands-on experience includes home-based care and private patient support in hospital settings. I have assisted people living with Alzheimer’s disease, cancer, physical disabilities, chronic health conditions, and a wide range of daily care needs. I approach every person with patience, dignity, respect, and a commitment to their comfort, safety, and well-being.',
 };
@@ -22,4 +23,4 @@ export const experience = [
   {year:'2024',role:'Private Patient Caregiver',context:'Kidney Stone Patient · Vicente Sotto Memorial Medical Center setting',details:['Assisted with mobility and routine daily activities.','Helped maintain comfort and patient safety.','Followed established caregiving instructions.']},
   {year:'2025',role:'Private Patient Caregiver',context:'Physical Disability Patient · Vicente Sotto Memorial Medical Center setting',details:['Assisted with mobility, positioning and hygiene.','Adapted daily assistance to individual mobility needs.','Promoted comfort, dignity and independence.']},
 ];
-export const careAreas = ['Alzheimer’s & memory care','Cancer and lung cancer support','Stroke & bedridden patient support','Diabetes & hypertension support','Respiratory conditions including asthma & pneumonia','Heart and thyroid condition support','NGT patient assistance within caregiver scope','Physical disability assistance','Newborn & infant care'];
+export const careAreas = ['Alzheimer’s & memory care','Cancer and lung cancer support','Stroke & bedridden patient support','Diabetes & hypertension support','Respiratory conditions including asthma & pneumonia','Heart attack & thyroid condition support','NGT patient assistance within caregiver scope','Physical disability assistance','Newborn & infant care','Nanny & daily childcare support'];
